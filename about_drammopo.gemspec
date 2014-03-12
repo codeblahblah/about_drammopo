@@ -3,9 +3,9 @@ require File.expand_path('../lib/about_drammopo/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["drammopo"]
-  gem.email         = ["mail@example.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["username@example.com"]
+  gem.description = %q{Learning about Ruby Gems and Gemfiles using Jeweler, Semantic Versioning and the Ruby Toolbox.}
+  gem.summary = %q{Simple use of a gem created elsewhere.}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
