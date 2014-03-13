@@ -1,4 +1,4 @@
-module About
+class About
 	def self.first_name
 		"Dichaba"
 	end
