@@ -8,7 +8,8 @@ Gem::Specification.new do |gem|
   gem.summary = %q{Simple use of a gem created elsewhere.}
   gem.homepage      = ""
 
-  gem.files         = `git ls-files`.split($\)
+  #gem.files         = `git ls-files`.split($\)
+  gem.files = Dir["README.md","Gemfile","Rakefile", "spec/*", "lib/**/*"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "about_drammopo"
