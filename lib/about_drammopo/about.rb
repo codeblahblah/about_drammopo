@@ -8,10 +8,14 @@ class About
 	end
 
 	def self.fact
-	  facts = ['I\'m a new fan of Ice Hockey.',
-         'My favourite team is the Chicago Blackhawks.',
-         'I like Purple.',
-         'The next language I\'m learning is Python.'
+	  facts = ['A ruby is a pink to blood-red colored gemstone,
+           a variety of the mineral corundum (aluminium oxide).',
+           '"Ruby" is a song by English rock band Kaiser Chiefs and is the lead track on their second album: Yours Truly, Angry Mob.',
+           'The name Ruby: Initially two names were proposed: "Coral" and "Ruby".',
+           'It all starts with "puts \'Hello World\'"',
+           'The reference Ruby implementation is called MRI ("Matz’s Ruby Interpreter")',
+           'Everything is an object. Everything.',
+           'Ruby uses message passing, not function calls.'
        ]
 		facts.sample
 	end
