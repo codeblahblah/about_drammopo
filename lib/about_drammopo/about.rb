@@ -15,7 +15,8 @@ class About
            'It all starts with "puts \'Hello World\'"',
            'The reference Ruby implementation is called MRI ("Matz\'s Ruby Interpreter")',
            'Everything is an object. Everything.',
-           'Ruby uses message passing, not function calls.'
+           'Ruby uses message passing, not function calls.', 
+           'All Code is Executed and Has a self.'
        ]
 		facts.sample
 	end
